@@ -108,6 +108,9 @@ For detailed documentation, see [docs/](docs/README.md).
     ### **WORK IN PROGRESS**
 -->
 
+### 0.2.0 (2026-02-28)
+* (Flixhummel) Fix error display for read-only datapoints, improve save config handling
+
 ### 0.1.9 (2026-02-27)
 * (Flixhummel) Unify MCDU driver to node-hid on all platforms, clean up mcdu-client setup
 

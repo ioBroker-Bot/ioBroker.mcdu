@@ -240,16 +240,22 @@
               "min": 1,
               "max": 255,
               "default": 20,
+              "xs": 12,
               "sm": 12,
               "md": 4,
+              "lg": 4,
+              "xl": 4,
               "help": "Amount added/subtracted per BRT/DIM button press (0-255 range)"
             },
             "display.startPage": {
               "type": "selectSendTo",
               "command": "getPageList",
               "label": "Start Page",
+              "xs": 12,
               "sm": 12,
               "md": 4,
+              "lg": 4,
+              "xl": 4,
               "default": "",
               "help": "Page shown on device connect (default: first page)"
             }
@@ -266,6 +272,11 @@
           "titleAttr": "name",
           "clone": true,
           "hidden": "!data._deviceConfigLoaded",
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12,
+          "xl": 12,
           "items": [
             {
               "type": "text",
@@ -538,7 +549,11 @@
         "functionKeys": {
           "type": "table",
           "label": "Function Key Assignments",
+          "xs": 12,
           "sm": 12,
+          "md": 12,
+          "lg": 12,
+          "xl": 12,
           "noDelete": true,
           "hidden": "!data._deviceConfigLoaded",
           "items": [
@@ -592,8 +607,11 @@
                 {"label": "Climate Control", "value": "climate"},
                 {"label": "Lighting Control", "value": "lights"}
               ],
+              "xs": 12,
               "sm": 12,
-              "md": 6
+              "md": 6,
+              "lg": 6,
+              "xl": 6
             },
             "loadTemplateButton": {
               "type": "sendTo",
