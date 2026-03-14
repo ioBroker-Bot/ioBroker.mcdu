@@ -620,8 +620,11 @@
               "useNative": true,
               "variant": "contained",
               "label": "Apply Template",
+              "xs": 12,
               "sm": 12,
-              "md": 6
+              "md": 6,
+              "lg": 6,
+              "xl": 6
             }
           }
         }
@@ -640,16 +643,22 @@
               "label": "Enable Debug Logging",
               "default": false,
               "help": "Enable detailed debug logs (affects performance)",
+              "xs": 12,
               "sm": 12,
-              "md": 6
+              "md": 6,
+              "lg": 6,
+              "xl": 6
             },
             "debug.logMqtt": {
               "type": "checkbox",
               "label": "Log MQTT Messages",
               "default": false,
               "help": "Log all MQTT publish/subscribe messages",
+              "xs": 12,
               "sm": 12,
-              "md": 6
+              "md": 6,
+              "lg": 6,
+              "xl": 6
             }
           }
         },
@@ -659,7 +668,12 @@
         },
         "exportInfo": {
           "type": "staticText",
-          "text": "Use the standard ioBroker config export/import functionality to backup and restore your MCDU configuration."
+          "text": "Use the standard ioBroker config export/import functionality to backup and restore your MCDU configuration.",
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12,
+          "xl": 12
         },
         "_dividerTestData": {
           "type": "divider",
@@ -667,7 +681,12 @@
         },
         "testDataInfo": {
           "type": "staticText",
-          "text": "Create sample ioBroker states under 0_userdata.0.mcdu_test for testing datapoint rendering."
+          "text": "Create sample ioBroker states under 0_userdata.0.mcdu_test for testing datapoint rendering.",
+          "xs": 12,
+          "sm": 12,
+          "md": 12,
+          "lg": 12,
+          "xl": 12
         },
         "_createTestData": {
           "type": "sendTo",
