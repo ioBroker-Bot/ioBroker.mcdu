@@ -63,7 +63,7 @@ The ioBroker adapter runs all business logic (page rendering, input handling, va
 | UX Phase G: Admin UI Polish & Integration | Not started |
 | Hardware Deployment Testing | Not started |
 
-228 tests passing (217 unit + 11 integration).
+199 tests passing (188 unit + 11 integration).
 
 ### Recommended Hardware (mcdu-client)
 
@@ -94,7 +94,7 @@ For detailed documentation, see [docs/](docs/README.md).
 
 | Script | Description |
 |--------|-------------|
-| `npm test` | Run all tests (mocha) |
+| `npm test` | Run all tests |
 | `npm run test:unit` | Unit tests only |
 | `npm run test:integration` | Integration tests only |
 | `npm run test:watch` | Watch mode for unit tests |
@@ -107,6 +107,16 @@ For detailed documentation, see [docs/](docs/README.md).
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+
+### **WORK IN PROGRESS**
+* (Flixhummel) Address ioBroker adapter review feedback (reviewer McM1957)
+* (Flixhummel) Migrate to ESLint 9 flat config with @iobroker/eslint-config v2.2.0
+* (Flixhummel) MQTT password now stored encrypted -- users must re-enter password once after updating
+* (Flixhummel) Fix object hierarchy: `devices` container changed from channel to folder
+* (Flixhummel) Fix 12+ state roles to match ioBroker standards
+* (Flixhummel) Replace native setTimeout/setInterval with adapter equivalents
+* (Flixhummel) Consolidate i18n translations to flat JSON files, move i18n.js to scripts/
+* (Flixhummel) Remove unused admin/jsonConfig-complexversion.json
 
 ### 0.2.0 (2026-02-28)
 * (Flixhummel) Fix error display for read-only datapoints, improve save config handling

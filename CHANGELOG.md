@@ -1,4 +1,15 @@
 # Changelog
+## **WORK IN PROGRESS**
+* Address ioBroker adapter review feedback (reviewer McM1957)
+* Migrate to ESLint 9 flat config with @iobroker/eslint-config v2.2.0
+* MQTT password now stored encrypted (encryptedNative/protectedNative) -- users must re-enter password once after updating
+* Fix object hierarchy: `devices` container changed from channel to folder
+* Fix 12+ state roles to match ioBroker standards (level.timer, level.brightness, text, switch.light, button with read:false)
+* Replace native setTimeout/setInterval with adapter.setTimeout/setInterval
+* Consolidate i18n translations to flat JSON files only
+* Remove unused admin/jsonConfig-complexversion.json
+* Move admin/i18n.js to scripts/i18n.js (not delivered to users)
+
 ## 0.2.0 (2026-02-27)
 * Fix release-script npm commands to use positional arguments
 
