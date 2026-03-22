@@ -176,8 +176,8 @@ describe('Package files', () => {
         });
 
         it('should have translation files', () => {
-            const enPath = path.join(__dirname, '../../admin/i18n/en/translations.json');
-            const dePath = path.join(__dirname, '../../admin/i18n/de/translations.json');
+            const enPath = path.join(__dirname, '../../admin/i18n/en.json');
+            const dePath = path.join(__dirname, '../../admin/i18n/de.json');
             expect(fs.existsSync(enPath)).to.be.true;
             expect(fs.existsSync(dePath)).to.be.true;
         });
