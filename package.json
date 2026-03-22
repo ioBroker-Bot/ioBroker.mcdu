@@ -3,8 +3,8 @@
   "version": "0.2.0",
   "description": "ioBroker adapter for WINWING MCDU smart home control",
   "author": {
-    "name": "Kira Holt",
-    "email": "kiraholtvi@gmail.com"
+    "name": "Felix Hummel",
+    "email": "hummelimages@googlemail.com"
   },
   "homepage": "https://github.com/Flixhummel/ioBroker.mcdu",
   "license": "MIT",

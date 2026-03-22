@@ -3,7 +3,7 @@
 **Version:** 1.0  
 **Date:** 2026-02-16  
 **Status:** Design Phase  
-**Author:** Kira Holt (based on ioBroker Best Practices research)
+**Author:** Felix Hummel (based on ioBroker Best Practices research)
 
 ---
 
@@ -2183,5 +2183,5 @@ This architecture provides a **production-ready foundation** for the MCDU ioBrok
 
 **Document Version:** 1.0  
 **Last Updated:** 2026-02-16  
-**Author:** Kira Holt  
+**Author:** Felix Hummel  
 **Status:** Ready for Review

@@ -3,7 +3,7 @@
 **Version:** 2.0  
 **Date:** 2026-02-16  
 **Status:** Design Phase  
-**Author:** Kira Holt  
+**Author:** Felix Hummel  
 **Based on:** UX-CONCEPT.md (authentic MCDU cockpit patterns)
 
 ---
@@ -1477,5 +1477,5 @@ This revision transforms the MCDU adapter from a **simple display/button control
 
 **Document Version:** 2.0  
 **Last Updated:** 2026-02-16  
-**Author:** Kira Holt  
+**Author:** Felix Hummel  
 **Status:** Ready for Review & Implementation

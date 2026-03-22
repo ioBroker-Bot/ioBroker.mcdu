@@ -6,7 +6,7 @@
  * Controls smart home devices using WINWING MCDU hardware via MQTT.
  * Architecture: ioBroker Adapter ↔ MQTT Broker ↔ RasPi Client ↔ MCDU Hardware
  *
- * @author Kira Holt <kiraholtvi@gmail.com>
+ * @author Felix Hummel <hummelimages@googlemail.com>
  * @license MIT
  */
 
